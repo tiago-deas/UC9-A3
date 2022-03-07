@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    
+}
+
+.info-prom{
+    background-color: #FC2121;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 12pt;
+    height:22px;    
+}
+
+.menu-logo{
+    background-color: #001AFF;
+    width: 100%;
+    height: 180px;
+                      
+}
+
+.barras{
+    margin-top: 20px;
+    margin-left: 140px;
+    left: 20px;
+}
+
+.entrega{
+    margin-top: 41px;
+    left: 34px;
+}
+.favoritos{
+    margin-top: 42px;
+    left: 24px;
+}
+.carrinho{
+    margin-top: 31px;
+    background-color:#FC2121;
+    height: 70px;
+    border-radius: 5pt;
+    border-style:outset;
+    border-width: 4px;
+    border-color: #AF3E3E;
+}
+.carrinho img{
+    margin-top: 8px;
+    margin-left: 10px;
+    left: 10px;
+}
+.carrinho:hover{
+    background-color: lightcoral;
+}
+.carrinho:focus,.carrinho:active {
+    transform: translateY(2px);
+      box-shadow: 0 1px 0 0 darkblue;
+  }
+.login{
+    margin-top: 47px;
+    margin-left: 10px;
+    background-color:#FC2121;
+    height: 43px;
+    border-radius: 5pt;
+    border-style:outset;
+    border-width: 4px;
+    border-color: #AF3E3E;
+}
+.login img{
+    margin-top: 8px;
+    margin-left: 10px;
+    left:12px
+}
+.login:hover{
+    background-color: lightcoral;   
+}
+
+.login:focus,.login:active {
+  transform: translateY(2px);
+    box-shadow: 0 1px 0 0 darkblue;
+}
+
+
+.topnav input[type=text] {
+    float: right;
+    padding: 8px;
+    border:#FC2121;
+    border-radius: 5pt;
+    border-color:#FC2121;
+    border-width: 100px;
+    margin-top: 50px;
+    margin-right: 20px;
+    font-size: 17px;
+    width: 300px;
+}
+.topnav .search-container button {
+    float: right;
+    padding: 6px 8px;
+    margin-top: 6px;
+    background: #FC2121 ;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5pt;
+    border-style: outset;
+    border-width: 3px;
+    border-color: #AF3E3E;
+    margin-top: -43px;
+    margin-right: -15px;
+    top:6px
+}
+.topnav .search-container button i{
+    color: white;
+}
+  .topnav .search-container button:hover {
+    background: lightcoral;
+  }
+  .topnav .search-container button:focus,.topnav .search-container button:active {
+    transform: translateY(2px);
+      box-shadow: 0 1px 0 0 darkblue;
+  }
+
+.nav-menu {
+    width: 100%;
+    background-color: #FC2121;
+    height:30px;
+        
+}
+
+.nav-menu a{
+    color: white;
+    font-size: 16pt;
+    text-decoration: none;
+    margin-left: 85px;
+    top:5px
+}
+.nav-menu a:hover{
+    color: lightcoral;
+}
+
+@media screen and (max-width: 1200px) {
+    .barras img{
+        right: 60px;
+    }
+    .logo img{
+        right: 60px;
+    }
+            
+    .topnav input[type=text]{
+        width: 180px;
+        right: 80px;
+    }
+    .topnav button{
+        right: 80px;
+    }
+    .entrega img{
+        right: 90px;
+    }
+    .favoritos img{
+        right: 80px;
+    }
+    .carrinho{
+        right: 70px;
+    }
+    .carrinho img{
+        margin-left: -3px;
+    }
+    .login{
+        right: 70px;
+    }
+    .login img{
+        margin-left: -3px;
+    }
+    .nav-menu a{
+        font-size: 14pt;
+        margin-left: 40px;
+        margin-right: 10px;    
+    }}
+  
+
+    @media screen and (max-width: 768px) {
+           
+        .menu-logo p{
+            width: 100%;
+            font-size: 10pt;
+        }
+       
+        .nav-menu a{
+             display: none;
+        }
+        .nav-menu{
+            border-style: solid;
+            border-width: 13px;
+            border-color: #FC2121;  
+        }
+        .barras img{
+            float: right;            
+            width: 80px;
+            left:460px;
+            top:20px;
+        }
+        .topnav .search-container button{
+            float: left;
+            margin-left: -100px;
+            margin-top: 14px;
+            width: 80px;
+            height: 85px;
+        }
+        .topnav .search-container button i{
+            font-size: 40pt;       
+            
+        }
+        .topnav input[type=text]{
+            display: none;
+        }
+        .logo img{            
+            width: 120px;
+            top:20px;
+            left:-170px
+        }
+        
+        .entrega img{            
+            width: 140px; 
+            bottom: 30px;  
+            left: -160px;         
+        }   
+        .favoritos img{
+            display: none;            
+        }
+
+        .carrinho{           
+            height: 85px; 
+            bottom: 160px;             
+            left: 60px; 
+            width:45px;
+            margin-left: 330px;                           
+            
+        }
+        .carrinho img{
+            width: 60px;
+            left: 15px;                     
+            
+        }
+        .login{
+            height: 55px;
+            width: 50px; 
+            bottom: 158px;             
+            left: 60px;
+                     
+        }
+       
+        .login img{
+            width: 70px;
+            top: 3px;
+        }} 

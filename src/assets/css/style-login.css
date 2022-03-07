@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    
+} 
+
+.barra1-login{
+    background-color: #FC2121;
+    height: 25px;
+    /* width: 100%; */
+}
+.login-logo{
+    background-color: #001AFF;
+    /* width: 100%; */
+    height: 120px;
+        
+}
+.login-logo img{
+    width: 150px;
+    margin-left: 150px;
+    margin-top: 8px;
+}
+.menu-logo-login h2{
+    margin-top: -80px;
+    margin-left: 600px;
+    color: white;
+    font-size: 30pt;
+}
+.banner-login{
+    height: 200px;
+    /* width:100%; */
+    background-repeat: no-repeat;
+}
+ 
+
+ form imput[type=password]{
+  width: 200px;
+}
+.login-gamer{
+    margin-top: -4%;
+    margin-left:25%;
+}
+.login-gamer img{
+    width: 200px;
+    margin-left:23%;
+    margin-bottom: 2%;
+}
+
+input[type=text], input[type=password],input[type=email]  {
+    width: 40%;
+    padding: 15px;
+    margin: 5px 0 15px 0;
+    border-radius: 7px;
+    display: inline-block;
+    border: solid;
+    border-style: outset;
+    background: #f1f1f1;
+    
+}
+.uname-email{
+    margin-left: 7%;
+}
+.psw-senha{
+    margin-left: 6.5%;
+}
+.texto-login{
+    margin-left: 23.5%;
+}
+.socorro{
+    margin-left: 20%;
+}
+  
+input[type=text]:focus, input[type=password]:focus input[type=email]:focus{
+    background-color: #ddd;
+    outline: none;
+}
+  
+button {
+    background-color:#001AFF;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-style: outset;
+    border-radius: 7px;
+    cursor: pointer;
+    width: 9%;
+    opacity: 0.9;     
+    
+}
+.login-gamer button{
+    margin-left: 13.5%;
+}
+  
+button:hover {
+    background-color: #5967e4;
+}
+button:focus, button:active{
+    transform: translateY(2px);
+    box-shadow: 0 1px 0 0 darkblue;
+}  
+
+.cancelbtn button{
+    width: 11%;    
+    /* margin-top: -1%;     */
+    margin-left: 23.9%;
+    background-color: #FC2121;    
+   
+}
+.cancelbtn button:hover{
+    background-color:lightcoral;
+}
+.cancelbtn button:focus, button:active{
+    transform: translateY(2px);
+    box-shadow: 0 1px 0 0 darkred;
+}
+   
+.cancelbtn1, .signupbtn {
+    float: left;
+    width: 50%;
+}
+.cancelbtn1{
+    background-color: #FC2121;
+}
+.cancelbtn1:hover{
+    background-color: lightcoral;
+}
+.cidade input[type=text]{
+    width: 20px;
+} 
+
+/* .container {
+    padding: 16px;
+} */
+  
+  /* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: #474e5d;
+    padding-top: 50px;
+  }
+  
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px outset #FC2121;
+    width: 80%;
+    border-width: 9px;
+}  
+ 
+hr{
+    border: 1px solid white;
+    margin-bottom: 25px;
+}
+   
+
+.close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+}
+  
+.close:hover,.close:focus {
+    color: #FC2121;
+    cursor: pointer;
+}
+  
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.modal-entrega {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content2 {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+  }
+  
+  /* Add Animation */
+  @-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+  }
+  
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+  
+  /* The Close Button */
+  .close1 {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close1:hover,
+  .close1:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .modal-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+  }
+  
+  .modal-body {padding: 2px 16px;}
+  
+  .modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+  } 
+  
+@media screen and (max-width: 1200px){
+
+    .login-logo h2{
+        margin-left:390px;
+    }
+    .login-gamer input[type=email], input[type=password]{
+        width: 320px;
+    }
+    #login-site{
+        width: 120px;
+        margin-left: 70px;
+    }
+    .botao-cancelar button{
+        width: 125px;
+    }
+    .modal-content h1{
+        font-size: 22pt;
+    }
+     
+    /* Página de entrega */
+
+    .delivery img{
+        width: 300px;
+               
+    }
+    .delivery-texto h3{
+        font-size: 16pt;
+        top: -140px;
+        display: flex;
+        justify-content: center;
+    }
+    .delivery-texto{
+        font-size:10pt; 
+        bottom: 160px; 
+        left: 270px;
+        display: flex;  
+        justify-content: center; 
+    }
+    .delivery-texto img{
+        width: 50px;
+        right: 280px;
+        top: 40px;
+        display: flex;
+        
+
+    }
+
+    
+
+    /* Página Inicial - Login */
+    
+    .mario-img{
+        width: 500px;
+        right: 30px;
+        top: -20px;
+    }
+    .conteudo-inicial h3{
+        top: -20px;
+    }
+    
+} 
+  
+@media screen and (max-width: 768px) {
+
+.login-logo img{
+    margin-left:70px;
+}
+.login-logo h2{
+    margin-left:220px;
+    font-size: 25pt;
+    left: 20px;
+}
+.login-gamer img{
+    margin-left: 70px;
+}
+.login-caixa{
+    margin-left:-80px;
+}
+
+.cancelbtn, .signupbtn {
+       width: 100%;
+}
+.botao-cancelar{
+    margin-left: 38px;
+}
+.texto-login{
+    margin-left: 135px;
+}
+.modal-content p{
+    font-size: 10pt;
+}
+.clearfix button{
+    width: 50%;
+}
+
+ /* Página Inicial - Login */
+    
+ .mario-img{
+    width: 400px;
+    right: 40px;
+    top: -20px;
+}
+.conteudo-inicial h3{
+    top: -20px;
+    right:30px;
+}
+
+}

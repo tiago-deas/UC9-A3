@@ -1,0 +1,672 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    
+} 
+
+.info-prom{
+    background-color: #FC2121;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 12pt;
+}
+
+.menu-logo{
+    background-color: #001AFF;
+    width: 100%;
+    height: 180px;
+                      
+}
+
+.barras{
+    margin-top: 20px;
+}
+
+.entrega{
+    margin-top: 41px;
+}
+.favoritos{
+    margin-top: 42px;
+}
+.carrinho{
+    margin-top: 31px;
+    background-color:#FC2121;
+    height: 70px;
+    border-radius: 5pt;
+    border-style:outset;
+    border-width: 4px;
+    border-color: #AF3E3E;
+}
+.carrinho img{
+    margin-top: 8px;
+    margin-left: 10px;
+}
+.carrinho:hover{
+    background-color: lightcoral;
+}
+.carrinho:focus,.carrinho:active {
+    transform: translateY(2px);
+      box-shadow: 0 1px 0 0 darkblue;
+  }
+.login{
+    margin-top: 47px;
+    margin-left: 10px;
+    background-color:#FC2121;
+    height: 43px;
+    border-radius: 5pt;
+    border-style:outset;
+    border-width: 4px;
+    border-color: #AF3E3E;
+}
+.login img{
+    margin-top: 8px;
+    margin-left: 10px;
+}
+.login:hover{
+    background-color: lightcoral;   
+}
+
+.login:focus,.login:active {
+  transform: translateY(2px);
+    box-shadow: 0 1px 0 0 darkblue;
+}
+
+
+.topnav input[type=text] {
+    float: right;
+    padding: 8px;
+    border:#FC2121;
+    border-radius: 5pt;
+    border-color:#FC2121;
+    border-width: 100px;
+    margin-top: 50px;
+    margin-right: 20px;
+    font-size: 17px;
+    width: 300px;
+}
+.topnav .search-container button {
+    float: right;
+    padding: 6px 8px;
+    margin-top: 6px;
+    background: #FC2121 ;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5pt;
+    border-style: outset;
+    border-width: 3px;
+    border-color: #AF3E3E;
+    margin-top: -43px;
+    margin-right: -15px;
+}
+.topnav .search-container button i{
+    color: white;
+}
+  .topnav .search-container button:hover {
+    background: lightcoral;
+  }
+  .topnav .search-container button:focus,.topnav .search-container button:active {
+    transform: translateY(2px);
+      box-shadow: 0 1px 0 0 darkblue;
+  }
+
+.nav-menu {
+    width: 100%;
+    background-color: #FC2121;
+        
+}
+
+.nav-menu a{
+    color: white;
+    font-size: 16pt;
+    text-decoration: none;
+    margin-left: 50px;
+}
+.nav-menu a:hover{
+    color: lightcoral;
+}
+
+.carousel{
+    height: 500px;
+}
+
+.carousel-item a, h5{
+    color: yellow;
+    font-size: 18pt;
+    text-shadow: 2px 2px black;            
+}
+
+.carrossel-produtos{
+    display: none;
+}
+
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 150px;
+    
+}
+li{
+    position: relative;  
+}
+li ul{
+    position: absolute;
+    left: 149px;
+    top: 0;
+    display: none; 
+        
+}
+
+* html ul li { float: left; }
+* html ul li a { height: 1%; }
+
+
+ul li a {
+    display: block;
+    text-decoration: none;
+    color: #E2144A;
+    background: #fff;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+li:hover ul { display: block;
+}
+
+ul li a:hover{
+    text-decoration:underline;
+    font-weight: bold;
+    background: #ccc; 
+}
+
+
+.secao-consoles{
+        background-color: #001AFF;
+        width: 100%;
+        height: 200px;
+}
+
+.consoles{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+
+.consoles img{
+        width: 180px;
+        margin-left: 36px;
+}
+.pc img{
+    width: 210px;
+    margin-left: 22px;
+}
+
+.menu-console a{
+    color: white;
+    font-size: 16pt;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 12px;
+    margin-left: 10px;
+}
+.menu-console a:hover{
+    color: lightcoral;
+}
+.menu-console-mobile{
+    display: none;
+}
+
+.banner-prom{
+    width: 100%;
+    height: 800px;
+}
+.phone img{
+    margin-top:20px;
+    margin-left: 20px;
+}
+.iphone img{
+    margin-top: 50px;
+    margin-left: 2px;
+}
+.ryse img{
+    margin-left: 180px;
+    margin-top: -60px;
+}
+.lost img{
+    margin-top: 40px;
+    margin-right: -5px;
+}
+.pc-amd img{
+    margin-left: 90px;
+    margin-top: -90px;
+}
+
+.monte-pc img{
+    width: 100%;
+}
+
+footer{
+    background-color: #001AFF;
+    width: 100%;
+    height:400px ;
+    margin-top: -10px;
+}
+.redes-sociais p{
+    color: white;
+    font-size: 20pt;
+    margin-left: 30px;
+    margin-top: 10px;
+    
+}
+.logo-foot img{
+  width: 180px; 
+  margin-top: 120px; 
+  margin-left: 25px;
+    
+}
+.inst p{
+    text-align: center;
+    margin-left: -124px;
+}
+
+.inst-links a{
+    font-size: 12pt;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    margin-left: 75px;
+}
+.inst-links a:hover{
+    color: lightcoral;
+}
+
+.ender p{
+    font-size: 9pt;
+    margin-top: 30px;
+    margin-left: -60px;
+}
+.contato-bloco{
+    margin-right: 70px;
+}
+
+.contato p{
+    font-size: 12pt;
+    float: right;
+    margin-top: -50px;
+    
+}
+.atend img{
+    margin-left:100px;
+}
+.whats img{
+    margin-bottom: 23px;
+    margin-right: 120px;
+}
+
+.whats p{
+    margin-left: 170px;
+}
+.tel img{
+    margin-bottom: 23px;
+}
+.tel p{
+    margin-left: 170px;
+}
+.email p{
+    margin-left: 170px;
+    margin-top: -25px;
+}
+.horario{
+    border-style: solid;
+    border-color:white;
+    margin-left: 80px;
+      
+}
+.horario p{
+     margin-top: 10px;
+     font-size: 9pt;
+     margin-right: 50px;
+     text-align: center;
+     margin-left: 30px;
+}
+.meios-pag{
+    background-color:#FC2121 ;
+    margin-top: -15px;
+}
+.meios-pag p{
+    font-size: 13pt;
+    color: white;
+    text-align: center;
+    margin-right: 80px;
+    margin-top: 10px;
+}
+.meios-pag img{
+    width: 500px;
+}
+.direitos p{
+    font-size: 11pt;
+    margin-top: 52px;
+    margin-right: -50px;
+}
+.carrossel-produtos-tablet{
+    display: none;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+        
+        .topnav input[type=text]{
+            width: 180px;
+        }
+        .carrinho img{
+            margin-left: -5px;
+        }
+        .login img{
+            margin-left: -3px;
+        }
+        .nav-menu a{
+            font-size: 16pt;
+            margin-left: 16px;
+            margin-right: 10px;
+        }
+        .ofertas img{
+            margin-left:420px;
+        }
+        .secao-consoles{
+            height: 170px;
+        }
+        .secao-consoles img{
+            margin-left: 10px;
+            width: 150px;
+        }
+        .pc img{
+            width: 168px;
+        } 
+        .menu-console a{
+            font-size: 14pt;
+            margin-left: -5px;
+        }       
+        
+        .menu-console-mobile{
+            display: none;
+        }
+        .proms{
+            display: none;
+        }
+        .carrossel-produtos-tablet{
+            display: flex;
+        }
+        .rede p{
+            font-size: 16pt;
+            top: 3px;
+            right: 15px;
+        }
+        .rede img{
+            width: 55px;
+        }
+        .insta img{
+            width:45px
+        }
+        .logo-foot img{
+            width: 150px;
+            margin-top: 50px;
+        }
+        .inst p{
+            margin-left:65px;
+        }
+        .inst a{
+            margin-left: 88px;
+            font-size: 13px;
+        }
+        .contato-bloco{
+            margin-right: 150px;
+            
+        }
+        .contact{
+          right:70px;
+        }
+        .horario{
+            left: 15px;
+        }
+        .meios-pag img{
+            width: 400px;
+        }
+        .direitos{
+            right: 20px;
+        }
+        
+               
+
+   
+@media screen and (max-width: 768px) {
+           
+    .menu-logo p{
+        width: 100%;
+        font-size: 10pt;
+    }
+   
+    .nav-menu a{
+         display: none;
+    }
+    .nav-menu{
+        border-style: solid;
+        border-width: 13px;
+        border-color: #FC2121;  
+    }
+    .barras img{
+        float: right;
+        margin-right: -530px;
+        margin-top: 10px;
+        width: 80px;
+    }
+    .topnav .search-container button{
+        float: left;
+        margin-left: -240px;
+        margin-top: 14px;
+        width: 80px;
+        height: 85px;
+    }
+    .topnav .search-container button i{
+        font-size: 40pt;       
+        
+    }
+    .topnav input[type=text]{
+        display: none;
+    }
+    .logo img{
+        margin-left: -160px;
+        width: 100px;
+        margin-top: 20px;
+    }
+    .entrega img{
+        margin-left: -217px;
+        width: 140px;
+        margin-top: -37px;
+    }   
+    .favoritos img{
+        display: none;
+        width:85px ;
+        margin-top:-30px;
+        margin-left:-170px;
+    }
+    .carrinho{
+        margin-top: 13px;
+        height: 85px;
+        margin-left: -185px;
+        
+    }
+    .carrinho img{
+        width: 80px;
+        margin-top: 1px;
+        
+    }
+    .login{
+        height: 55px;
+        width:140px ;
+        margin-top:30px;
+        margin-right: 55px;
+       
+    }
+    .login img{
+        width: 80px;
+    }
+    .carrossel-produtos-tablet{
+        display: none;
+    }
+    .carousel{
+        height: 500px;
+        width: 100%;
+    }
+    
+    .carousel-caption{
+        display: block !important;
+                        
+    }
+
+.carrossel-produtos{
+    display: flex;
+    margin-top: 100px;
+    margin-right: -8px;
+}
+.consoles{
+    margin-left: 20px;
+}
+    .secao-consoles{
+        height: 150px;
+    }
+    .secao-consoles img{
+        width: 120px;
+    }
+    .pc img{
+        width: 138px;
+    }
+    .menu-console a{
+        display: none;
+    }
+    .menu-console-mobile{
+        display: block;
+        
+    }
+    .menu-console-mobile p{
+       color: white;
+       font-size: 14pt;
+                                  
+    }
+    .ps5{
+       margin-left: -35px;
+    } 
+    .xs{
+        left:0px;        
+    } 
+    .mais{
+        left:75px;
+    }
+    .pc-mobile{
+        left: 45px;
+    }
+    .switch{
+        left:50px;        
+    }  
+
+.proms{
+        display: none;
+}
+.rede p{
+    font-size: 17pt;
+    right: 50px;
+}
+.rede img{
+    width: 70px;
+    right: 50px;
+}       
+
+.insta img{
+  width: 55px;
+  margin-left: 120px;
+  margin-top: -85px;
+  left: -15px;
+}
+.logo-foot img{
+    width: 150px;
+    margin-left: -15px;
+    margin-top: -50px;
+    bottom: 25px;
+    left: 5px;
+    
+}
+.youtube img{
+    margin-bottom: 40px;
+    bottom: 85px;
+    left: 15px;
+
+}
+.facebook img{
+    right:65px;
+}
+.inst a{
+    display: none;
+}
+.inst p{
+    margin-left: -240px;
+    margin-top: 160px;
+    left: -35px;
+    bottom: 20px;
+    font-size: 17pt;
+}
+
+.ender{
+    display: none;
+}
+.atend p{
+    left: 30px;
+    font-size: 17pt;
+}
+
+.atend{
+    margin-right:-50px;
+    left: 40px;
+}
+.contato-bloco{
+    width: 55px;
+    margin-left: -30px;
+    left: 35px;
+    bottom: 12px;
+}
+
+.whats p, .tel p, .email p, 
+.horario{
+    display:none;
+}
+
+.meios-pag img{
+    width: 350px;
+    margin-left: -70px;
+    margin-top: 10pt;        
+}
+
+.meios-pag .pag p{
+        font-size: 12pt;
+}
+.direitos p{
+        margin-right:-119px;
+        font-size: 10pt;
+}
+     
+       
+    
+   
+}

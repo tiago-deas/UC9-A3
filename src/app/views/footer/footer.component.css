@@ -1,0 +1,246 @@
+.faixa-footer{
+    background-color: #FC2121;
+    width: 100%;
+    height: 20px;
+}
+
+footer{
+    background-color: #001AFF;
+    width: 100%;
+    height:400px ;
+    margin-top: -10px;
+}
+.redes-sociais p{
+    color: white;
+    font-size: 20pt;
+    margin-left: 30px;
+    margin-top: 10px;
+    
+}
+.logo-foot img{
+  width: 180px; 
+  margin-top: 120px; 
+  margin-left: 25px;
+  margin-bottom: 15px;
+    
+}
+.inst p{
+    text-align: center;
+    margin-left: -124px;
+}
+
+.inst-links a{
+    font-size: 12pt;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    margin-left: 75px;
+}
+.inst-links a:hover{
+    color: lightcoral;
+}
+
+.ender p{
+    font-size: 9pt;
+    margin-top: 60px;
+    margin-left: -60px;
+}
+.contato-bloco{
+    margin-right: 70px;
+}
+
+.contato p{
+    font-size: 12pt;
+    float: right;
+    margin-top: -50px;
+    
+}
+.atend img{
+    margin-left:100px;
+}
+.whats img{
+    margin-bottom: 23px;
+    margin-right: 120px;
+}
+
+.whats p{
+    margin-left: 170px;
+}
+.tel img{
+    margin-bottom: 23px;
+}
+.tel p{
+    margin-left: 170px;
+}
+.email p{
+    margin-left: 170px;
+    margin-top: -25px;
+}
+.horario{
+    border-style: solid;
+    border-color:white;
+    margin-left: 80px;
+      
+}
+.horario p{
+     margin-top: 10px;
+     font-size: 9pt;
+     margin-right: 50px;
+     text-align: center;
+     margin-left: 30px;
+}
+.meios-pag{
+    background-color:#FC2121 ;
+    margin-top: -15px;
+}
+.meios-pag p{
+    font-size: 13pt;
+    color: white;
+    text-align: center;
+    margin-right: 80px;
+    margin-top: 10px;
+}
+.meios-pag img{
+    width: 500px;
+}
+.direitos p{
+    font-size: 11pt;
+    margin-top: 52px;
+    margin-right: -50px;
+}
+.carrossel-produtos-tablet{
+    display: none;
+}
+
+
+@media screen and (max-width: 1200px) {
+
+    .rede p{
+        font-size: 16pt;
+        top: 3px;
+        right: 15px;
+    }
+    .rede img{
+        width: 55px;
+    }
+    .insta img{
+        width:45px
+    }
+    .logo-foot img{
+        width: 150px;
+        margin-top: 50px;
+    }
+    .inst p{
+        margin-left:65px;
+    }
+    .inst a{
+        margin-left: 88px;
+        font-size: 13px;
+    }
+    .contato-bloco{
+        margin-right: 150px;
+        
+    }
+    .contact{
+      right:70px;
+    }
+    .horario{
+        left: 15px;
+    }
+    .meios-pag img{
+        width: 400px;
+    }
+    .direitos{
+        right: 20px;
+    }
+    
+           
+
+
+@media screen and (max-width: 768px) {
+
+    .rede p{
+        font-size: 17pt;
+        right: 50px;
+    }
+    .rede img{
+        width: 70px;
+        right: 50px;
+    }       
+    
+    .insta img{
+      width: 55px;
+      margin-left: 120px;
+      margin-top: -85px;
+      left: -15px;
+    }
+    .logo-foot img{
+        width: 150px;
+        margin-left: -15px;
+        margin-top: -50px;
+        bottom: 20px;
+        left: 5px;
+        
+    }
+    .youtube img{
+        margin-bottom: 40px;
+        bottom: 85px;
+        left: 15px;
+    
+    }
+    .facebook img{
+        right:65px;
+    }
+    .inst a{
+        display: none;
+    }
+    .inst p{
+        margin-left: -240px;
+        margin-top: 160px;
+        left: -35px;
+        bottom: 30px;
+        font-size: 17pt;
+    }
+    
+    .ender{
+        display: none;
+    }
+    .atend p{
+        left: 30px;
+        font-size: 17pt;
+    }
+    
+    .atend{
+        margin-right:-50px;
+        left: 40px;
+    }
+    .contato-bloco{
+        width: 55px;
+        margin-left: -30px;
+        left: 35px;
+        bottom: 12px;
+    }
+    
+    .whats p, .tel p, .email p, 
+    .horario{
+        display:none;
+    }
+    
+    .meios-pag img{
+        width: 350px;
+        margin-left: -70px;
+        margin-top: 10pt;        
+    }
+    
+    .meios-pag .pag p{
+            font-size: 12pt;
+    }
+    .direitos p{
+            margin-right:-119px;
+            font-size: 10pt;
+    }
+         
+           
+        
+       
+    }}
