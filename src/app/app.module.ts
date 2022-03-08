@@ -8,7 +8,11 @@ import { HeaderComponent } from './views/header/header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FooterComponent } from './views/footer/footer.component';
 import { LoginComponent } from './views/login/login.component';
-import { InicialComponent } from './views/inicial/inicial.component';
+import { InicialComponent } from './views/inicial/inicial.component';   
+import { FormsModule } from '@angular/forms';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome'
+
+
 
 @NgModule({
   declarations: [
@@ -22,9 +26,15 @@ import { InicialComponent } from './views/inicial/inicial.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    FormsModule,
+    // AngularFontAwesomeModule,
+    FontAwesomeModule    
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { 
+  
+  }
+

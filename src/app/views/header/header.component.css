@@ -114,7 +114,8 @@
     top:6px
 }
 .topnav .search-container button i{
-    color: white;
+    color:white;
+    
 }
   .topnav .search-container button:hover {
     background: lightcoral;
@@ -210,8 +211,9 @@
             width: 80px;
             height: 85px;
         }
-        .topnav .search-container button i{
-            font-size: 40pt;       
+        .fa-search{
+            font-size: 40pt; 
+                 
             
         }
         .topnav input[type=text]{
