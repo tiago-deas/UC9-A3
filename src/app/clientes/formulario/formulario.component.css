@@ -1,0 +1,94 @@
+.banner-login {
+    height: 400px;
+}
+
+h1 {
+    top: -20px;
+}
+
+form {
+    top: -250px;
+}
+
+input[type=text],
+input[type=password],
+input[type=email],
+#ano,
+#tipo,
+#masculino,
+#feminino,
+.form-control {
+    border-radius: 12px;
+    border-width: 3px;
+    border-style: outset;
+}
+
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=email]:focus,
+.form-control:focus {
+    background-color: lightblue;
+    border-radius: 12px;
+    border-style: outset;
+    border-width: 3pt;
+    outline: none;
+}
+
+.buttons {
+    left: 530px;
+    margin-bottom: -100px;
+    margin-right: 450px;
+}
+
+.cadastrar {
+    background-color: #001AFF;
+    border-style: outset;
+    border-radius: 7px;
+}
+
+.cancelar {
+    background-color: #FC2121;
+    border-style: outset;
+    border-radius: 7px;
+    width: 95px;
+}
+
+.buttons input[type=submit]:hover {
+    color: lightblue;
+}
+
+.buttons a:hover {
+    color: lightcoral;
+}
+
+.buttons input[type=submit]:focus,
+input[type=submit]:active {
+    transform: translateY(2px);
+    box-shadow: 0 1px 0 0 darkblue;
+}
+
+.buttons a:focus,
+a:active {
+    transform: translateY(2px);
+    box-shadow: 0 1px 0 0 darkred;
+}
+
+#sucesso {
+    display: none;
+}
+
+.cep-config {
+    left: 13px;
+}
+
+@media screen and (max-width: 1200px) {
+    .buttons {
+        left: 350px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .buttons {
+        left: 200px;
+    }
+}

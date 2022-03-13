@@ -1,0 +1,19 @@
+@media screen and (max-width: 1200px) {
+    .delivery-texto {
+        bottom: 50px;
+        left: 120px;
+    }
+    .delivery img {
+        top: -60px;
+        left: 250px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .delivery-texto {
+        left: 0px;
+    }
+    .delivery img {
+        left: 70px;
+    }
+}

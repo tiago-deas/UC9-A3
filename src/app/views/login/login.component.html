@@ -1,115 +1,32 @@
 <div id="login-completo">
- <div class="banner-login" style="background-image: url(assets/img/fundo-prom.png);">
-    &nbsp;
- </div>
- <section class="login-gamer">
-   <form action="" method="post">
-       <div class="imgcontainer">
-           <img src="assets/img/avatar.png" alt="Avatar" class="avatar">
-       </div>
-
-       <div class="login-caixa container">
-           <p class="uname-email"><label for="uname"><b>Email</b></label>
-           <input type="email" placeholder="Digite seu Email Aqui..." name="uname" required></p>
-
-           <p class="psw-senha"><label for="psw"><b>Senha</b></label>
-           <input type="password" placeholder="...e sua Senha Aqui :)" name="psw" required></p>
-    
-           <p><button id="login-site" class="start" type="submit" onclick="Login(event)">Start!</button>
-           <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;" onclick="ur">Cadastro :)</button></p>
-           <p class="texto-login">
-           <label>
-           <input type="checkbox" checked="checked" name="remember"> Lembre pra mim ;)
-           <p class="socorro"><span class="psw">Socorro! Esqueci a minha <a href="">Senha!</a></span></p>
-           </label></p>
-           <div class="cancelbtn" container>
-              <a class="botao-cancelar" href=" "><button type="button">Cancelar :(</button></a>      
-           </div>
-        </div>
-    </form>
-  </section>
-
- <div id="id01" class="modal">
-  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-  <form class="modal-content" action="/action_page.php">
-  <div class="container">
-      <div class="row">
-          <div class="col">
-           <h1>Cadastro</h1>
-           <p>Sua história com a Game Mania está prestes a começar!!!</p>
-          </div>
-          <div class="col">
-           <img src="../img/logo.png" style="float: right; width: 170px;">
-          </div>
-       </div>
-    <hr>
-    <div class="row">
-        <div class="col">
-          <label  for="nome"><b>Nome</b></label>
-          <input  type="text" placeholder="Nome" name="nome" style="width: 100%" required>
-         </div>
-         <div class="col">
-           <label for="sobrenome"><b>Sobrenome</b></label>
-           <input type="text" placeholder="Sobrenome" name="sobrenome" style="width: 100%;" required>
-         </div>
+    <div class="banner-login" style="background-image: url(assets/img/fundo-prom.png);">
+        &nbsp;
     </div>
-     
-    <div class= "row">
-        <div class="col">
-          <p><label for="email"><b>Email</b></label>
-          <input type="email" placeholder="Email" name="email" style="width: 100%;"  required></p>
-        </div>
-        <div class="col">
-          <label class="cep" for="cep" style="width: 100%;"><b>CEP</b></label>
-          <input type="text" placeholder="CEP" name="cep" style="width: 25%;" size="5" maxlength="5" required> - <input type="text" name="cep2" size="3" maxlength="3" style="width: 23%;" required>
-        </div>
-    </div>
-    
-    <div class="row">
-        <div class="col">
-         <label class="cidade" for="cidade" style="width: 100%;"><b>Cidade</b></label>
-         <input type="text" placeholder="Cidade" name="cidade" style="width: 80%;" required>
-        </div> 
-        <div class="col">
-         <label class="estado" for="estado" style="width: 100%;"><b>UF</b></label>
-         <input type="text" placeholder="Estado" name="estado" style="width:80%" required>
-        </div>        
-        <div class="col">
-         <label class="pais" for="pais" style="width: 100%;"><b>País</b></label>
-         <input type="text" placeholder="País" name="pais" style="width: 80%;" required>
-        </div>
-    </div> 
+    <section class="login-gamer">
+        <form action="" method="post">
+            <div class="imgcontainer">
+                <img src="assets/img/avatar.png" alt="Avatar" class="avatar">
+            </div>
 
-    <div class="row">
-       <div class="col">
-        <label class="rua" for="rua"><b>Rua</b></label>
-        <input type="text" placeholder="Rua" name="rua" style="width: 100%;" required>
-       </div>
-       <div class="col">
-        <label class="numero" for="numero" style="width: 100%;"><b>Número</b></label>
-        <input type="text" placeholder="Número" name="numero" style="width:50%"  required>
-       </div>
-    </div>
+            <div class="login-caixa container">
+                <p class="uname-email"><label for="uname"><b>Email</b></label>
+                    <input type="email" placeholder="Digite seu Email Aqui..." name="uname" required></p>
 
-    <div class="row">
-       <div class="col">
-        <label for="psw" style="width: 100%;"><b>Senha</b></label>
-        <input type="password" placeholder="Senha" name="psw" style="width: 80%;" required>
-       </div>
-        <div class="col">
-        <p><label for="psw-repeat" style="width: 100%;"><b>Senha</b></label>
-        <input type="password" placeholder="Repita a Senha" name="psw-repeat" style="width: 80%;" required></p>
-       </div>
-    </div>
+                <p class="psw-senha"><label for="psw"><b>Senha</b></label>
+                    <input type="password" placeholder="...e sua Senha Aqui :)" name="psw" required></p>
+            </div>
 
-    <label>
-      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Me Lembre!!!
-    </label>
+            <button id="login-site" class="start" type="submit" onclick="Login(event)">Start!</button>
+            <button class="cadastro-btn"><a href="formulario" style="text-decoration: none;color: white;">Cadastro
+          :)</a></button>
+            <p class="texto-login">
+                <label>
+          <input type="checkbox" checked="checked" name="remember"> Lembre pra mim ;)
+          <p class="socorro"><span class="psw">Socorro! Esqueci a minha <a href="">Senha!</a></span></p>
+        </label></p>
+            <div class="cancelbtn" container>
+                <a class="botao-cancelar" href=" "><button type="button">Cancelar :(</button></a>
+            </div>
 
-    <p>Quase lá! Criando essa conta você concorda com os nossos <a href="../html/termos.html" style="color:dodgerblue">Termos e Condições</a>.</p>
-
-    <div class="clearfix">
-      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn1">Cancelar :(</button>
-      <button type="submit" class="signupbtn">Cadastrar :)</button>
-    </div>
-
+        </form>
+    </section>

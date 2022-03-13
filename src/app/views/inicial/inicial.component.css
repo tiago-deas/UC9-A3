@@ -1,0 +1,36 @@
+.conteudo-inicial p {
+    margin-top: -360px;
+    font-size: 20pt;
+}
+
+.construc {
+    left: 590px;
+    margin-right: 680px;
+}
+
+.conteudo-inicial img {
+    margin-bottom: 50px;
+    margin-left: 420px;
+}
+
+@media screen and (max-width: 1200px) {
+    .conteudo-inicial p {
+        left: 390px
+    }
+    .conteudo-inicial img {
+        left: -200px;
+        margin-right: -80px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .conteudo-inicial p {
+        left: 275px;
+        font-size: 18pt;
+        margin-right: 450px;
+    }
+    .conteudo-inicial img {
+        left: -330px;
+        margin-right: -300px;
+    }
+}

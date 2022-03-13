@@ -1,24 +1,28 @@
-.banner-login{
+.banner-login {
     height: 200px;
     /* width:100%; */
     background-repeat: no-repeat;
-} 
+}
 
- form imput[type=password]{
-  width: 200px;
-}
-.login-gamer{
-    margin-top: -4%;
-    margin-left:25%;
-}
-.login-gamer img{
+form imput[type=password] {
     width: 200px;
-    margin-left:23%;
+}
+
+.login-gamer {
+    margin-top: -4%;
+    margin-left: 25%;
+}
+
+.login-gamer img {
+    width: 200px;
+    margin-left: 23%;
     margin-bottom: 2%;
     right: 20px;
 }
 
-input[type=text], input[type=password],input[type=email]  {
+input[type=text],
+input[type=password],
+input[type=email] {
     width: 40%;
     padding: 15px;
     margin: 5px 0 15px 0;
@@ -27,35 +31,41 @@ input[type=text], input[type=password],input[type=email]  {
     border: solid;
     border-style: outset;
     background: #f1f1f1;
-    
 }
-.uname-email{
+
+.uname-email {
     margin-left: 7%;
 }
-.uname-email label{
+
+.uname-email label {
     right: 5px;
 }
-.psw-senha{
+
+.psw-senha {
     margin-left: 6.5%;
 }
-.psw-senha label{
+
+.psw-senha label {
     right: 5px;
 }
-.texto-login{
+
+.texto-login {
     margin-left: 23.5%;
 }
-.socorro{    
+
+.socorro {
     right: 43px;
-    top:10px      
+    top: 10px
 }
-  
-input[type=text]:focus, input[type=password]:focus input[type=email]:focus{
+
+input[type=text]:focus,
+input[type=password]:focus input[type=email]:focus {
     background-color: #ddd;
     outline: none;
 }
-  
+
 button {
-    background-color:#001AFF;
+    background-color: #001AFF;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -63,220 +73,106 @@ button {
     border-radius: 7px;
     cursor: pointer;
     width: 9%;
-    opacity: 0.9;     
-    
+    opacity: 0.9;
 }
-.login-gamer button{
-    margin-left: 13.5%;
-    width: 10%;
+
+.login-gamer button {
+    margin-left: 13%;
+    width: 11%;
     right: 18px;
 }
-  
+
 button:hover {
     background-color: #5967e4;
 }
-button:focus, button:active{
+
+button:focus,
+button:active {
     transform: translateY(2px);
     box-shadow: 0 1px 0 0 darkblue;
-}  
+}
 
-.cancelbtn button{
+.cancelbtn button {
     width: 10%;
     margin-left: 23.9%;
-    background-color: #FC2121; 
-    margin-bottom: 10%; 
-    left: -4px;  
-   
+    background-color: #FC2121;
+    margin-bottom: 10%;
+    left: -4px;
 }
-.cancelbtn button:hover{
-    background-color:lightcoral;
+
+.cancelbtn button:hover {
+    background-color: lightcoral;
 }
-.cancelbtn button:focus, button:active{
+
+.cancelbtn button:focus,
+button:active {
     transform: translateY(2px);
     box-shadow: 0 1px 0 0 darkred;
 }
-   
-.cancelbtn1, .signupbtn {
-    float: left;
-    width: 50%;
-}
-.cancelbtn1{
-    background-color: #FC2121;
-}
-.cancelbtn1:hover{
-    background-color: lightcoral;
-}
-.cidade input[type=text]{
-    width: 20px;
-} 
 
-/* .container {
-    padding: 16px;
-} */
-  
-  /* The Modal (background) */
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: #474e5d;
-    padding-top: 50px;
-  }
-  
-.modal-content {
-    background-color: #fefefe;
-    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
-    border: 1px outset #FC2121;
-    width: 80%;
-    border-width: 9px;
-}  
- 
-hr{
-    border: 1px solid white;
-    margin-bottom: 25px;
-}
-   
-
-.close {
-    position: absolute;
-    right: 35px;
-    top: 15px;
-    font-size: 40px;
-    font-weight: bold;
-    color: #f1f1f1;
-}
-  
-.close:hover,.close:focus {
-    color: #FC2121;
-    cursor: pointer;
-}
-  
-
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-.modal-entrega {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  }
-  
-  /* Modal Content */
-  .modal-content2 {
-    position: relative;
-    background-color: #fefefe;
-    margin: auto;
-    padding: 0;
-    border: 1px solid #888;
-    width: 80%;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-    -webkit-animation-name: animatetop;
-    -webkit-animation-duration: 0.4s;
-    animation-name: animatetop;
-    animation-duration: 0.4s
-  }
-  
-  /* Add Animation */
-  @-webkit-keyframes animatetop {
-    from {top:-300px; opacity:0} 
-    to {top:0; opacity:1}
-  }
-  
-  @keyframes animatetop {
-    from {top:-300px; opacity:0}
-    to {top:0; opacity:1}
-  }
-  
-  /* The Close Button */
-  .close1 {
-    color: white;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-  }
-  
-  .close1:hover,
-  .close1:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-  }
-  
-  .modal-header {
-    padding: 2px 16px;
-    background-color: #5cb85c;
-    color: white;
-  }
-  
-  .modal-body {padding: 2px 16px;}
-  
-  .modal-footer {
-    padding: 2px 16px;
-    background-color: #5cb85c;
-    color: white;
-  } 
-  
-@media screen and (max-width: 1200px){
-
-    .login-gamer input[type=email], input[type=password]{
+@media screen and (max-width: 1200px) {
+    .login-gamer input[type=email],
+    input[type=password] {
         width: 320px;
     }
-    #login-site{
-        width: 120px;
+    #login-site {
+        width: 130px;
         margin-left: 95px;
     }
-    .botao-cancelar button{
+    .botao-cancelar button {
         width: 125px;
     }
-    .modal-content h1{
-        font-size: 22pt;
-    }  
-   
-    
-  
+    .cadastro-btn {
+        width: 130px;
+        bottom: 9px;
+        left: 35px;
+        border-radius: 12px;
+    }
+    .cadastro-btn a {
+        right: 7px;
+        top: 3px;
+    }
+    #login-site {
+        margin-right: 10px;
+        height: 70px;
+        width: 85px;
+        border-radius: 12px;
+    }
+}
+
 @media screen and (max-width: 768px) {
-
-
-.login-gamer img{
-    margin-left: 135px;
+    .login-gamer img {
+        margin-left: 135px;
+    }
+    .login-caixa {
+        margin-left: -30px;
+    }
+    #login-site {
+        left: -20px
+    }
+    .cancelbtn,
+    .signupbtn {
+        width: 100%;
+    }
+    .botao-cancelar {
+        margin-left: 38px;
+    }
+    .texto-login {
+        margin-left: 160px;
+    }
+    .cadastro-btn a {
+        font-size: 9pt;
+        left: -13px;
+    }
+    .cadastro-btn {
+        height: 70px;
+        right: 10px;
+    }
+    .cancelbtn button {
+        left: -30px;
+        width: 120px;
+    }
+    #login-site {
+        left: -40px;
+    }
 }
-.login-caixa{
-    margin-left:-30px;
-}
-#login-site{
-    left:-20px
-}
-
-.cancelbtn, .signupbtn {
-       width: 100%;
-}
-.botao-cancelar{
-    margin-left: 38px;
-}
-.texto-login{
-    margin-left: 160px;
-}
-.modal-content p{
-    font-size: 10pt;
-}
-.clearfix button{
-    width: 50%;
-}
-
-}}

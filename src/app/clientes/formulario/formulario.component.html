@@ -1,0 +1,127 @@
+<div class="banner-login" style="background-image: url(assets/img/fundo-prom.png);">
+    &nbsp;
+</div>
+
+<form [formGroup]="formCliente" (ngSubmit)="onSubmit()" class="container" action="sendmail.php" name="formulario">
+
+    <h1 style="text-align: center; margin-top: 20px;"><b>Página de Cadastro</b></h1>
+
+    <div class="row" style="margin-top: 20px;">
+        <div class="form-group col">
+            <label for="nome">Nome</label>
+            <input type="text" class="form-control" name="nome" id="nome required" value="" placeholder="Nome" style="width: 100%;" required>
+        </div>
+
+        <div class="form-group col">
+            <label for="sobrenome">Sobrenome</label>
+            <input type="text" class="form-control" name="sobrenome" id="sobrenome required" value="" placeholder="Sobrenome" style="width:100%" required>
+        </div>
+    </div>
+
+    <div class="row" style="margin-top: 20px;">
+        <div class="form-group col">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" placeholder="Email" name="email" id="email required" value="" style="width: 100%; height:37px;" required>
+        </div>
+
+
+        <div class="form-group col">
+            <label for="tipo">Nacionalidade</label>
+            <select class="form-control" name="tipo" id="tipo required">
+        <option value="1">-</option>
+        <option value="2">Brasileira</option>
+        <option value="3">Outra</option>
+      </select>
+        </div>
+    </div>
+
+    <div class="row" style="margin-top: 20px;">
+        <div class="form-group col">
+            <label>Gênero</label>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="genero" id="masculino required" [value]="1" required>
+                <label class="form-check-label" for="masculino">Masculino</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="genero" id="feminino required" [value]="2" required>
+                <label class="form-check-label" for="feminino">Feminino</label>
+            </div>
+        </div>
+        <div class="form-group col">
+            <label for="ano">Ano de Nascimento</label>
+            <select class="form-control" name="ano" id="ano">
+        <option value="-1">-</option>
+        <option value="0">2004</option>
+        <option value="1">2003</option>
+        <option value="2">2002</option>
+        <option value="3">2001</option>
+        <option value="4">2000</option>
+        <option value="5">1999</option>
+        <option value="6">Anos Anteriores</option>
+      </select>
+        </div>
+    </div>
+
+    <div class="row" style="margin-top: 20px;">
+        <div class="form-group col">
+            <div class="cep-config row">
+                <label class="cep" for="cep" style="width: 100%;">CEP</label>
+                <input type="text" class="form-control" id="enda required" placeholder="CEP" name="cep" value="" style="width: 35%;" size="5" maxlength="5" required>&nbsp;_&nbsp;<input type="text" class="form-control" name="cep2" size="3" value="" maxlength="3"
+                    style="width: 25%;" required>
+            </div>
+        </div>
+        <div class="form-group col">
+            <label class="cidade" for="cidade" style="width: 100%;">Cidade</label>
+            <input type="text" class="form-control" id="endb required" placeholder="Cidade" value="" name="cidade" style="width: 80%;" required>
+        </div>
+        <div class="form-group col">
+            <label class="estado" for="estado" style="width: 100%;">UF</label>
+            <input type="text" class="form-control" id="endc required" placeholder="Estado" name="estado" value="" style="width:80%" required>
+        </div>
+        <div class="form-group col">
+            <label class="pais" for="pais" style="width: 100%;">País</label>
+            <input type="text" class="form-control" id="endd required" placeholder="País" name="pais" value="" style="width: 80%;" required>
+        </div>
+    </div>
+
+    <div class="row" style="margin-top: 20px;">
+        <div class="form-group col">
+            <label class="rua" for="rua">Rua</label>
+            <input type="text" class="form-control" placeholder="Rua" id="end2a required" value="" name="rua" style="width: 100%;" required>
+        </div>
+        <div class="form-group col">
+            <label class="numero" for="numero" style="width:40%;">Número</label>
+            <input type="text" class="form-control" placeholder="Número" name="numero" id="end2b required" value="" style="width:50%" required>
+        </div>
+    </div>
+
+    <div class="row" style="margin-top: 20px;">
+        <div class="form-group col">
+            <label for="psw" style="width: 100%;">Senha</label>
+            <input type="password" class="form-control" placeholder="Senha" id="senhas required" name="psw" value="" style="width: 80%;" required>
+        </div>
+        <div class="form-group col">
+            <p><label for="psw-repeat" style="width: 100%;">Senha</label>
+                <input type="password" class="form-control" placeholder="Repita a Senha" id="senhas required" value="" name="psw-repeat" style="width: 80%;" required></p>
+        </div>
+    </div>
+
+    <label style="margin-top: 10px;">
+    <input type="checkbox" checked="checked" name="remember" value="" style="margin-bottom:15px;"> Me Lembre!!!
+  </label>
+
+    <p>Quase lá! Criando essa conta você concorda com os nossos <a href="" style="color:dodgerblue">Termos e
+      Condições</a>.</p>
+
+
+    <div class="buttons">
+        <input type="submit" class="cadastrar btn btn-primary mt-4" value="Cadastrar" style="margin-right: 50px;">
+        <a href=" " class="cancelar btn btn-secondary mt-4 ml-2">Cancelar</a>
+    </div>
+</form>
+
+<!-- Mensagem de Sucesso no cadastro -->
+
+<div id="sucesso">
+    <h1>{{mensagem}}</h1>
+</div>

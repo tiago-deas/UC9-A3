@@ -10,7 +10,10 @@ import { FooterComponent } from './views/footer/footer.component';
 import { LoginComponent } from './views/login/login.component';
 import { InicialComponent } from './views/inicial/inicial.component';   
 import { FormsModule } from '@angular/forms';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome'
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { EntregaComponent } from './views/entrega/entrega.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { FormularioComponent } from './clientes/formulario/formulario.component';
 
 
 
@@ -21,7 +24,9 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome'
     HeaderComponent,
     FooterComponent,
     LoginComponent,
-    InicialComponent
+    InicialComponent,
+    EntregaComponent,
+    FormularioComponent
   ],
   imports: [
     BrowserModule,
@@ -29,7 +34,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome'
     BrowserAnimationsModule,
     FormsModule,
     // AngularFontAwesomeModule,
-    FontAwesomeModule    
+    FontAwesomeModule,
+    ReactiveFormsModule    
   ],
   providers: [],
   bootstrap: [AppComponent]

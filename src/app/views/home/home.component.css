@@ -1,73 +1,79 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
-*{  
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     position: relative;
-    
-} 
+}
 
-.carousel{
+.carousel {
     height: 500px;
     bottom: 23px;
 }
 
-.carousel-item a, h5{
+.carousel-item a,
+h5 {
     color: yellow;
     font-size: 18pt;
-    text-shadow: 2px 2px black; 
+    text-shadow: 2px 2px black;
     bottom: 70px;
     right: 250px;
     text-align: center;
-              
 }
-.carousel-item h5{
+
+.carousel-item h5 {
     left: 8px;
     bottom: 10px;
 }
-.carousel-indicators{
-    top:500px
+
+.carousel-indicators {
+    top: 500px
 }
-.carousel-control-prev-icon{
+
+.carousel-control-prev-icon {
     bottom: 350px;
     right: 10px;
-    
 }
-.carousel-control-next-icon{
+
+.carousel-control-next-icon {
     bottom: 382px;
     left: 1280px;
 }
 
-.carrossel-produtos{
-    display: none;
-}
-.carrossel-produtos-tablet{
+.carrossel-produtos {
     display: none;
 }
 
-ul{
+.carrossel-produtos-tablet {
+    display: none;
+}
+
+ul {
     margin: 0;
     padding: 0;
     list-style: none;
     width: 150px;
-    
 }
-li{
-    position: relative;  
+
+li {
+    position: relative;
 }
-li ul{
+
+li ul {
     position: absolute;
     left: 149px;
     top: 0;
-    display: none; 
-        
+    display: none;
 }
 
-* html ul li { float: left; }
-* html ul li a { height: 1%; }
+* html ul li {
+    float: left;
+}
 
+* html ul li a {
+    height: 1%;
+}
 
 ul li a {
     display: block;
@@ -78,222 +84,220 @@ ul li a {
     border: 1px solid #ccc;
 }
 
-li:hover ul { display: block;
+li:hover ul {
+    display: block;
 }
 
-ul li a:hover{
-    text-decoration:underline;
+ul li a:hover {
+    text-decoration: underline;
     font-weight: bold;
-    background: #ccc; 
+    background: #ccc;
 }
 
-
-.secao-consoles{
-        background-color: #001AFF;
-        width: 100%;
-        height: 200px;        
+.secao-consoles {
+    background-color: #001AFF;
+    width: 100%;
+    height: 200px;
 }
 
-.consoles{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-left: 85px;
+.consoles {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 85px;
 }
 
-
-.consoles img{
-        width: 180px;
-        margin-left: 36px;
+.consoles img {
+    width: 180px;
+    margin-left: 36px;
 }
-.pc img{
+
+.pc img {
     width: 210px;
     margin-left: 22px;
 }
 
-.menu-console a{
+.menu-console a {
     color: white;
-    font-size: 16pt;    
-    text-decoration: none;   
+    font-size: 16pt;
+    text-decoration: none;
     margin-left: 95px;
     right: -65px;
 }
-.playN{
-    left:50px
+
+.playN {
+    left: 50px
 }
-.xboxN{
-    left:40px;
+
+.xboxN {
+    left: 40px;
 }
-.pcN{
-    right:40px;
+
+.pcN {
+    right: 40px;
 }
-.nitendoN{
-    left:40px
+
+.nitendoN {
+    left: 40px
 }
-.menu-console a:hover{
+
+.menu-console a:hover {
     color: lightcoral;
 }
-.menu-console-mobile{
+
+.menu-console-mobile {
     display: none;
 }
 
-.banner-prom{
+.banner-prom {
     width: 100%;
     height: 800px;
 }
-.proms{
+
+.proms {
     margin-left: 120px;
 }
-.phone img{
-    margin-top:20px;
+
+.phone img {
+    margin-top: 20px;
     margin-left: 20px;
 }
-.iphone img{
+
+.iphone img {
     margin-top: 50px;
     margin-left: 2px;
 }
-.ryse img{
+
+.ryse img {
     margin-left: 180px;
     margin-top: -60px;
 }
-.lost img{
+
+.lost img {
     margin-top: 40px;
     margin-right: -5px;
 }
-.pc-amd img{
+
+.pc-amd img {
     margin-left: 90px;
     margin-top: -90px;
 }
 
-.monte-pc img{
+.monte-pc img {
     width: 100%;
 }
 
-
-
-
-@media screen and (max-width: 1200px) {   
-        .carousel-item a, h5{
-            left: -160px;
-            font-size: 18pt;
-        }   
-       .icone-next{
-           margin-left: -430px;
-       }
-       
-        .ofertas img{
-            margin-left:380px;            
-            width: 400px;
-        }
-        .secao-consoles{
-            height: 170px;
-        }
-        .secao-consoles img{          
-            width: 150px;           
-            margin-left: -60px;
-        }
-        .pc img{
-            width: 168px;
-        } 
-        .menu-console a{
-            font-size: 14pt;
-            margin-left: -5px;
-        } 
-        .prom-redmi{
-            width: 600px;
-        }      
-        
-        .menu-console-mobile{
+@media screen and (max-width: 1200px) {
+    .carousel-item a,
+    h5 {
+        left: -160px;
+        font-size: 18pt;
+    }
+    .icone-next {
+        margin-left: -430px;
+    }
+    .ofertas img {
+        margin-left: 380px;
+        width: 400px;
+    }
+    .secao-consoles {
+        height: 170px;
+    }
+    .secao-consoles img {
+        width: 150px;
+        margin-left: -60px;
+    }
+    .pc img {
+        width: 168px;
+    }
+    .menu-console a {
+        font-size: 14pt;
+        margin-left: -5px;
+    }
+    .prom-redmi {
+        width: 600px;
+    }
+    .menu-console-mobile {
+        display: none;
+    }
+    .proms {
+        display: none;
+    }
+    .carrossel-produtos-tablet {
+        display: flex;
+    }
+    @media screen and (max-width: 768px) {
+        .carrossel-produtos-tablet {
             display: none;
         }
-        .proms{
-            display: none;
+        .carousel {
+            height: 500px;
+            width: 100%;
         }
-        .carrossel-produtos-tablet{
+        .carousel-caption {
+            display: block !important;
+        }
+        .carousel-item a,
+        h5 {
+            left: -120px;
+            font-size: 16pt;
+        }
+        .icone-next {
+            left: -200px;
+        }
+        .red-mi {
+            width: 550px;
+        }
+        .carrossel-produtos {
             display: flex;
-       }     
-        
-               
-
-   
-@media screen and (max-width: 768px) {          
-   
-   
-    .carrossel-produtos-tablet{
-        display: none;
+            margin-top: 100px;
+            margin-right: 0px;
+        }
+        .consoles {
+            margin-left: 20px;
+        }
+        .secao-consoles {
+            height: 150px;
+        }
+        .secao-consoles img {
+            width: 120px;
+            margin-left: 16px;
+        }
+        .pc img {
+            width: 138px;
+        }
+        .menu-console a {
+            display: none;
+        }
+        .menu-console-mobile {
+            display: block;
+        }
+        .menu-console-mobile p {
+            color: white;
+            font-size: 14pt;
+            margin-left: 70px;
+            margin-right: -40px;
+        }
+        .ps5 {
+            left: 8px;
+        }
+        .xs {
+            left: 18px;
+        }
+        .mais {
+            left: 130px;
+        }
+        .pc-mobile {
+            left: 75px;
+        }
+        .switch {
+            left: 100px;
+        }
+        .carrossel-produtos {
+            top: 70px;
+        }
+        .proms {
+            display: none;
+        }
     }
-    .carousel{
-        height: 500px;
-        width: 100%;
-    }
-    
-    .carousel-caption{
-        display: block !important;
-                        
-    }
-.carousel-item a, h5{
-    left: -120px;
-    font-size: 16pt;
 }
-.icone-next{
-    left:-200px;
-}
-.red-mi{
-  width: 550px;
-}
-
-.carrossel-produtos{
-    display: flex;
-    margin-top: 100px;
-    margin-right: 0px;
-}
-.consoles{
-    margin-left: 20px;
-}
-    .secao-consoles{
-        height: 150px;        
-    }
-    .secao-consoles img{
-        width: 120px;
-        margin-left: 16px;
-    }
-    .pc img{
-        width: 138px;
-    }
-    .menu-console a{
-        display: none;
-    }
-    .menu-console-mobile{
-        display: block;
-        
-    }
-    .menu-console-mobile p{
-       color: white;
-       font-size: 14pt;
-       margin-left: 70px;
-       margin-right: -40px;
-                                  
-    }
-    .ps5{
-      left:8px; 
-    } 
-    .xs{
-      left:18px;          
-    } 
-    .mais{
-       left: 130px; 
-    }
-    .pc-mobile{
-       left: 75px;
-    }
-    .switch{
-      left: 100px;       
-    }  
-.carrossel-produtos{
-    top: 70px;
-}
-
-.proms{
-        display: none;
-}
-}}
