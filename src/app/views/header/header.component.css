@@ -134,6 +134,11 @@
     transform: translateY(2px);
     box-shadow: 0 1px 0 0 darkblue;
 }
+.topnav img{
+    bottom: 30px;
+    left: 305px;
+    z-index: 1;
+}
 
 .nav-menu {
     width: 100%;
@@ -166,6 +171,10 @@
     }
     .topnav button {
         right: 80px;
+    }
+    .topnav img{        
+        left: 105px;
+        z-index: 1;
     }
     .entrega img {
         right: 90px;
@@ -217,6 +226,11 @@
         margin-top: 14px;
         width: 80px;
         height: 85px;
+    }
+    .topnav img{
+        bottom: -50px;
+        left: -155px; 
+        width: 20px;      
     }
     .fa-search {
         font-size: 40pt;

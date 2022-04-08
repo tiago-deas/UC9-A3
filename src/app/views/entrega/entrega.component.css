@@ -1,3 +1,20 @@
+.clientes{
+    background-color: #001AFF;
+    border:solid;
+    border-color: #FC2121;
+    border-width: 8px;
+    margin-bottom: 30px;
+    width: 80%;
+    border-style: outset;
+    border-radius: 7pt;
+
+}
+.clientes p, h3{
+  color: white;
+  text-align: center;
+}
+
+
 @media screen and (max-width: 1200px) {
     .delivery-texto {
         bottom: 50px;

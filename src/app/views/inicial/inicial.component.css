@@ -12,6 +12,30 @@
     margin-bottom: 50px;
     margin-left: 420px;
 }
+.usuarios{
+    border:solid;
+    text-align: center;
+    width: 30%;
+    border-radius: 7pt;
+    background-color: #001AFF;
+    border-color: #FC2121;
+    border-width: 8px;
+    margin-bottom: 40px;
+    border-style: outset;
+    margin-left:32%;
+}
+.usuarios p, h3{
+    color: white;
+}
+h4{
+    color: gold;
+    border: solid;
+    width: 40%;
+    left: 140px;
+    border-color: #FC2121;
+    border-width: 3px;
+    border-style: outset;
+}
 
 @media screen and (max-width: 1200px) {
     .conteudo-inicial p {
@@ -21,6 +45,12 @@
         left: -200px;
         margin-right: -80px;
     }
+
+    .usuarios{        
+        width: 50%;
+        border-radius: 7pt;       
+        margin-left:27%;
+    }    
 }
 
 @media screen and (max-width: 768px) {
@@ -33,4 +63,9 @@
         left: -330px;
         margin-right: -300px;
     }
+
+    .usuarios{       
+        width: 60%;       
+        margin-left:20%;
+    }    
 }

@@ -1,7 +1,19 @@
 <div class="banner-login" style="background-image: url(assets/img/fundo-prom.png); width: 100%; height: 500px;">
-    &nbsp;
+  &nbsp;
 </div>
 <div class="conteudo-inicial">
-    <p class="construc">Site em Construção!</p>
-    <img class="mario-img" src="assets/img/mario-const.gif" alt="site em construção" width="600px">
+  <p class="construc">Site em Construção!</p>
+  <img class="mario-img" src="assets/img/mario-const.gif" alt="site em construção" width="600px">
 </div>
+
+<section class="usuarios">
+    <h3><b>Dados dos Usuários Cadastrados no Banco de Dados</b></h3>
+    <h4>Método GET do HTTP</h4>
+    <div class="row">
+      <div *ngFor="let usuario of listaUsuarios">
+        <p><b>ID: </b> {{usuario.id}}</p>
+        <p><b>Nome: </b> {{usuario.nome}}</p>
+        <p><b>Email: </b>{{usuario.email}}</p>
+      </div>
+    </div>
+  </section>

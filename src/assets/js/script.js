@@ -12,19 +12,19 @@ window.onclick = function(event) {
 
 //Página de Login
 
-function Login(event) {
-    event.preventDefault();
-    var usuario = document.getElementsByName('uname')[0].value;
-    usuario = usuario.toLowerCase();
-    var senha = document.getElementsByName('psw')[0].value;
-    senha = senha.toLowerCase();
+// function Login(event) {
+//     event.preventDefault();
+//     var usuario = document.getElementsByName('uname')[0].value;
+//     usuario = usuario.toLowerCase();
+//     var senha = document.getElementsByName('psw')[0].value;
+//     senha = senha.toLowerCase();
 
-    if (usuario == "admin@email.com" && senha == "123") {
-        document.location.href = "inicial"
-    } else {
-        window.alert("Dados incorretos, tente novamente");
-    }
-}
+//     if (usuario == "admin@email.com" && senha == "123") {
+//         document.location.href = "inicial"
+//     } else {
+//         window.alert("Dados incorretos, tente novamente");
+//     }
+// }
 
 
 

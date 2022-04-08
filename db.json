@@ -1,0 +1,66 @@
+{
+  "users": [
+    {
+      "email": "sinisio@email.com",
+      "password": "$2a$10$pVyJ9NPVOR70qOkZaeGuy.FNjEBYo573tojm4Y4Mr2Aacfb5YM15O",
+      "nome": "Sinisio",
+      "id": 2
+    },
+    {
+      "email": "tiago@email.com",
+      "password": "$2a$10$BMC9VBjpQZaA13qTIYTVBekj/3IRA0pjB3zQt.w7/2lWJRzCQP9Y.",
+      "nome": "Tiago",
+      "id": 3
+    },
+    {
+      "email": "silvia@email.com",
+      "password": "$2a$10$QC.7gZ4lR9UOo4no3NtYIOPWs8.ZHz3FuGNWgRbkJYccOOX4sw/ym",
+      "nome": "Silvia",
+      "id": 4
+    },
+    {
+      "email": "maria@email.com",
+      "password": "$2a$10$vR6WR7UV3vYOIP91S0ZRJe5JONq2r8UYRuTdNUayHVXKQD589nCAO",
+      "nome": "Maria",
+      "id": 5
+    },
+    {
+      "email": "joao@email.com",
+      "password": "$2a$10$NCkYsxsbwWkT1at0tFt.musa.16JcaboGJAPXplzdtptz02N9CJ9.",
+      "nome": "João",
+      "id": 6
+    }
+  ],
+  "produtos": [
+    {
+      "id": 1,
+      "imagens": "assets/img/user1.png",
+      "titulo": "João Fernandes",
+      "descricao": "A entrega express da Game Mania salvou a minha vida! Recebi o presente da minha esposa no mesmo dia!"
+    },
+    {
+      "id": 2,
+      "imagens": "assets/img/user3.png",
+      "titulo": "Maria da Silva",
+      "descricao": "Adoro a entrega express da Game Mania! Eficiente, rápida e com um preço justo! Podem Confiar!"
+    },
+    {
+      "id": 3,
+      "imagens": "assets/img/user4.png",
+      "titulo": "Joana de Sousa",
+      "descricao": "Recebi o melhor lançamento de jogo do ano na minha casa em menos de 5 horas, incrível!"
+    },
+    {
+      "id": 4,
+      "imagens": "assets/img/user2.png",
+      "titulo": "Gustavo Muller",
+      "descricao": "Meu playstation 5, que comprei na promoção, chegou na minha casa muito rápido! Excelente serviço de entrega express!"
+    },
+    {
+      "imagens": "assets/img/user5.png",
+      "titulo": "Vanessa Rossi",
+      "descricao": "Acabou de chegar todos os meus funkos! São tão lindos! Muito obrigada Game Mania pela entrega super rápida! Voltarei a comprar de novo!",
+      "id": 5
+    }
+  ]
+}

@@ -14,6 +14,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { EntregaComponent } from './views/entrega/entrega.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { FormularioComponent } from './clientes/formulario/formulario.component';
+import { HttpClientModule } from '@angular/common/http';
+
 
 
 
@@ -26,7 +28,7 @@ import { FormularioComponent } from './clientes/formulario/formulario.component'
     LoginComponent,
     InicialComponent,
     EntregaComponent,
-    FormularioComponent
+    FormularioComponent    
   ],
   imports: [
     BrowserModule,
@@ -35,7 +37,8 @@ import { FormularioComponent } from './clientes/formulario/formulario.component'
     FormsModule,
     // AngularFontAwesomeModule,
     FontAwesomeModule,
-    ReactiveFormsModule    
+    ReactiveFormsModule,
+    HttpClientModule   
   ],
   providers: [],
   bootstrap: [AppComponent]

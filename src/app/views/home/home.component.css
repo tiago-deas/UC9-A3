@@ -6,10 +6,16 @@
     font-family: 'Roboto', sans-serif;
     position: relative;
 }
-
 .carousel {
     height: 500px;
     bottom: 23px;
+       
+   
+}
+.carousel-inner{
+    background-color: #001AFF;
+    background-image: url(/src/assets/img/fundo-seta.png);    
+   
 }
 
 .carousel-item a,

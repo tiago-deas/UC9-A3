@@ -1,178 +1,201 @@
 .banner-login {
-    height: 200px;
-    /* width:100%; */
-    background-repeat: no-repeat;
+  height: 200px;
+  /* width:100%; */
+  background-repeat: no-repeat;
 }
 
 form imput[type=password] {
-    width: 200px;
+  width: 200px;
 }
 
 .login-gamer {
-    margin-top: -4%;
-    margin-left: 25%;
+  margin-top: -4%;
+  margin-left: 25%;
 }
 
 .login-gamer img {
-    width: 200px;
-    margin-left: 23%;
-    margin-bottom: 2%;
-    right: 20px;
+  width: 200px;
+  margin-left: 23%;
+  margin-bottom: 2%;
+  right: 20px;
 }
 
 input[type=text],
 input[type=password],
 input[type=email] {
-    width: 40%;
-    padding: 15px;
-    margin: 5px 0 15px 0;
-    border-radius: 7px;
-    display: inline-block;
-    border: solid;
-    border-style: outset;
-    background: #f1f1f1;
+  width: 40%;
+  padding: 15px;
+  margin: 5px 0 15px 0;
+  border-radius: 7px;
+  display: inline-block;
+  border: solid;
+  border-style: outset;
+  background: #f1f1f1;
 }
 
 .uname-email {
-    margin-left: 7%;
+  margin-left: 7%;
 }
 
 .uname-email label {
-    right: 5px;
+  right: 5px;
 }
 
 .psw-senha {
-    margin-left: 6.5%;
+  margin-left: 6.5%;
 }
 
 .psw-senha label {
-    right: 5px;
+  right: 5px;
 }
 
 .texto-login {
-    margin-left: 23.5%;
+  margin-left: 23.5%;
 }
 
 .socorro {
-    right: 43px;
-    top: 10px
+  right: 43px;
+  top: 10px
 }
 
 input[type=text]:focus,
 input[type=password]:focus input[type=email]:focus {
-    background-color: #ddd;
-    outline: none;
+  background-color: #ddd;
+  outline: none;
 }
 
 button {
-    background-color: #001AFF;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border-style: outset;
-    border-radius: 7px;
-    cursor: pointer;
-    width: 9%;
-    opacity: 0.9;
+  background-color: #001AFF;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border-style: outset;
+  border-radius: 7px;
+  cursor: pointer;
+  width: 9%;
+  opacity: 0.9;
 }
 
 .login-gamer button {
-    margin-left: 13%;
-    width: 11%;
-    right: 18px;
+  margin-left: 13%;
+  width: 11%;
+  right: 18px;
 }
 
 button:hover {
-    background-color: #5967e4;
+  background-color: #5967e4;
 }
 
 button:focus,
 button:active {
-    transform: translateY(2px);
-    box-shadow: 0 1px 0 0 darkblue;
+  transform: translateY(2px);
+  box-shadow: 0 1px 0 0 darkblue;
+}
+
+.cadastro-btn {
+  bottom: 305px;
+  left: 250px;
 }
 
 .cancelbtn button {
-    width: 10%;
-    margin-left: 23.9%;
-    background-color: #FC2121;
-    margin-bottom: 10%;
-    left: -4px;
+  width: 10%;
+  margin-left: 23.9%;
+  background-color: #FC2121;
+  margin-bottom: 10%;
+  left: -4px;
 }
 
 .cancelbtn button:hover {
-    background-color: lightcoral;
+  background-color: lightcoral;
 }
 
 .cancelbtn button:focus,
 button:active {
-    transform: translateY(2px);
-    box-shadow: 0 1px 0 0 darkred;
+  transform: translateY(2px);
+  box-shadow: 0 1px 0 0 darkred;
 }
 
 @media screen and (max-width: 1200px) {
-    .login-gamer input[type=email],
-    input[type=password] {
-        width: 320px;
-    }
-    #login-site {
-        width: 130px;
-        margin-left: 95px;
-    }
-    .botao-cancelar button {
-        width: 125px;
-    }
-    .cadastro-btn {
-        width: 130px;
-        bottom: 9px;
-        left: 35px;
-        border-radius: 12px;
-    }
-    .cadastro-btn a {
-        right: 7px;
-        top: 3px;
-    }
-    #login-site {
-        margin-right: 10px;
-        height: 70px;
-        width: 85px;
-        border-radius: 12px;
-    }
+
+  .login-gamer input[type=email],
+  input[type=password] {
+    width: 320px;
+  }
+
+  #login-site {
+    width: 130px;
+    margin-left: 95px;
+  }
+
+  .botao-cancelar button {
+    width: 125px;
+  }
+
+  .cadastro-btn {
+    width: 130px;
+    bottom: 285px;
+    left: 220px;
+    border-radius: 12px;
+  }
+
+  .cadastro-btn a {
+    right: 7px;
+    top: 3px;
+  }
+
+  #login-site {
+    margin-right: 10px;
+    height: 70px;
+    width: 85px;
+    border-radius: 12px;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .login-gamer img {
-        margin-left: 135px;
-    }
-    .login-caixa {
-        margin-left: -30px;
-    }
-    #login-site {
-        left: -20px
-    }
-    .cancelbtn,
-    .signupbtn {
-        width: 100%;
-    }
-    .botao-cancelar {
-        margin-left: 38px;
-    }
-    .texto-login {
-        margin-left: 160px;
-    }
-    .cadastro-btn a {
-        font-size: 9pt;
-        left: -13px;
-    }
-    .cadastro-btn {
-        height: 70px;
-        right: 10px;
-    }
-    .cancelbtn button {
-        left: -30px;
-        width: 120px;
-    }
-    #login-site {
-        left: -40px;
-    }
+  .login-gamer img {
+    margin-left: 135px;
+  }
+
+  .login-caixa {
+    margin-left: -30px;
+  }
+
+  #login-site {
+    left: -20px
+  }
+
+  .cancelbtn,
+  .signupbtn {
+    width: 100%;
+  }
+
+  .botao-cancelar {
+    margin-left: 38px;
+  }
+
+  .texto-login {
+    margin-left: 160px;
+  }
+
+  .cadastro-btn a {
+    font-size: 9pt;
+    left: -16px; 
+    text-align: center;   
+  }
+
+  .cadastro-btn {
+    height: 70px;
+    right: 5px;
+    top: -266px;
+    
+  }
+
+  .cancelbtn button {
+    left: -20px;
+    width: 120px;
+  }
+
+  #login-site {
+    left: -40px;
+  }
 }

@@ -13,7 +13,7 @@ const routes: Routes = [
   {path: "login", component:LoginComponent},
   {path: "inicial", component:InicialComponent},
   {path: "entrega", component:EntregaComponent},
-  {path: "formulario", component:FormularioComponent}
+  {path: "cadastro", component:FormularioComponent}
 ];
 
 @NgModule({

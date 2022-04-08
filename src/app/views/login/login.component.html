@@ -2,23 +2,23 @@
     <div class="banner-login" style="background-image: url(assets/img/fundo-prom.png);">
         &nbsp;
     </div>
-    <section class="login-gamer">
-        <form action="" method="post">
+<main>
+    <section class="login-gamer" >
+        <form action="" method="post" #loginForm="ngForm" (ngSubmit)="onSubmit()">
             <div class="imgcontainer">
                 <img src="assets/img/avatar.png" alt="Avatar" class="avatar">
             </div>
 
             <div class="login-caixa container">
                 <p class="uname-email"><label for="uname"><b>Email</b></label>
-                    <input type="email" placeholder="Digite seu Email Aqui..." name="uname" required></p>
+                    <input type="email" placeholder="Digite seu Email Aqui..." [(ngModel)]="loginModel.email" name="uname" required></p>
 
                 <p class="psw-senha"><label for="psw"><b>Senha</b></label>
-                    <input type="password" placeholder="...e sua Senha Aqui :)" name="psw" required></p>
+                    <input type="password" placeholder="...e sua Senha Aqui :)" name="psw" [(ngModel)]="loginModel.password" required></p>
             </div>
-
-            <button id="login-site" class="start" type="submit" onclick="Login(event)">Start!</button>
-            <button class="cadastro-btn"><a href="formulario" style="text-decoration: none;color: white;">Cadastro
-          :)</a></button>
+            
+            <button id="login-site" class="start" type="submit">Start!</button>
+            
             <p class="texto-login">
                 <label>
           <input type="checkbox" checked="checked" name="remember"> Lembre pra mim ;)
@@ -29,4 +29,9 @@
             </div>
 
         </form>
-    </section>
+
+        <button class="cadastro-btn"><a href="cadastro" style="text-decoration: none;color: white;">Cadastro
+            :)</a>
+        </button>
+    </section>    
+</main>
