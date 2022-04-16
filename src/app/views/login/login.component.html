@@ -4,20 +4,20 @@
     </div>
 <main>
     <section class="login-gamer" >
-        <form action="" method="post" #loginForm="ngForm" (ngSubmit)="onSubmit()">
+        <form action="" method="post" #loginForm="ngForm" (ngSubmit)="onSubmit()" id="enviar-form" class="enviar-form">
             <div class="imgcontainer">
                 <img src="assets/img/avatar.png" alt="Avatar" class="avatar">
             </div>
 
             <div class="login-caixa container">
                 <p class="uname-email"><label for="uname"><b>Email</b></label>
-                    <input type="email" placeholder="Digite seu Email Aqui..." [(ngModel)]="loginModel.email" name="uname" required></p>
+                    <input type="email" id="emailLogin" placeholder="Digite seu Email Aqui..." [(ngModel)]="loginModel.email" name="uname" required></p>
 
                 <p class="psw-senha"><label for="psw"><b>Senha</b></label>
-                    <input type="password" placeholder="...e sua Senha Aqui :)" name="psw" [(ngModel)]="loginModel.password" required></p>
+                    <input type="password" id="senhaLogin" placeholder="...e sua Senha Aqui :)" name="psw" [(ngModel)]="loginModel.password" required></p>
             </div>
             
-            <button id="login-site" class="start" type="submit">Start!</button>
+            <button id="login-site" class="start" type="submit" class="enviar-form">Start!</button>
             
             <p class="texto-login">
                 <label>
